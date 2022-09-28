@@ -1,0 +1,228 @@
+/*styling logo*/
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;  
+}
+.logo{
+    color: orange;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 5px;  
+}
+/*end of styling logo*/
+
+/*styling logo image*/
+.lgo{
+    float: right;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
+}
+.about-img-lgo{
+    border-radius: 30%;
+}
+
+
+body{
+    background-color: lightslategrey;
+}
+
+
+
+
+/*styling navbar*/
+.navbar{
+    background-color: #333;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.navbar a{
+    
+    font-family: Arial;
+    padding: 14px 20px;   
+    display: block;
+    float: left;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px; 
+}
+.navbar a:hover{
+    background-color: orange;
+    transition: 0.4s ease-in-out;
+    
+}
+.navbar a.right{
+    float: right;
+}
+
+
+/*styling header*/
+.header{
+    background-image: url(../img/main\ tea.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 14px 20px;
+    border-radius: 15px;
+}
+
+
+
+/*styling images home page*/
+.row{
+    display: flex;
+    padding-top: 25px;
+}
+
+.item{
+    flex: 25%;
+    color: bisque;
+}
+
+.btn{
+    background: white;
+    color: black;
+    border-radius: 15PX;
+    padding: 5px 6px;
+    
+}
+.btn:hover{
+    background-color:darkorange;
+    transition: 0.5s ease-in-out;
+}
+/*end of styling img home page*/
+
+
+
+
+/*end of styling row4 about page */
+.row4{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.row4 .item4:hover{
+    background-color: rgb(96, 107, 107);
+}
+.item4{
+    flex: 25%;
+    background-color: white;
+    border: #333 solid;
+    border-radius: 20px;
+    justify-content: space-between;
+
+}
+/*end of styling row4 about page  */
+
+
+/*styling footer*/
+.footer{
+    padding: 50px 50px;
+    align-items: center;
+    border-left: 20px;
+    background-color: #333;
+    margin-top: 20px;
+    border-radius: 20px;  
+}
+.row2{
+    display: flex;
+    padding-left: 180px;
+    align-items: center;
+}
+.item2{
+    flex: 20%;
+}
+
+
+.about-image{
+    border-radius: 40%;
+}
+.pr{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+/*end of styling footer*/
+
+
+
+/*Gallery page*/
+.row3{
+    display: flex;
+    overflow: hidden;
+    padding: 14px 20px;
+}
+.item3{
+    flex: 25%;
+}
+.row3 .item3:hover{
+    color: lightskyblue;
+}
+
+
+
+/*styling about page*/
+.row6{
+    display: flex;
+    overflow: hidden;
+    padding-left: 200px;
+    border: lightblue 5px solid;
+    padding-top: 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+
+    
+}
+.item6{
+    flex: 25%;
+}
+
+
+/*styling contact page*/
+.row7{
+display: flex;
+background-color: wheat;
+border-radius: 20px;
+padding-bottom: 20px;
+border: white 3px solid;
+margin-right: 400px;
+}
+.item7{
+    flex: 50%;
+    padding-top: 20px;
+    padding-left: 35px;
+    margin-top: 20px;
+}
+.item8{
+    margin-top: 30px;
+    padding-right: 300px;
+}
+
+.container3{
+    display: flex;
+   text-align: center;
+}
+.box3{
+    align-items: center;
+}
+
+
+.row5{
+display: flex;
+}
+
+.row5{
+flex: 25%;
+}
+
+.cnt{
+    background-image: url(../img/coffe.jpeg);
+    background-size: cover;
+    padding: 40px 55px;
+    background-position: center;
+}
